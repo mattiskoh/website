@@ -577,8 +577,7 @@ pre {
 /* Owl Override Style */
 .owl-carousel .owl-controls,
 .owl-carousel-posts .owl-controls {
-  /*margin-top: 0;*/
-
+    /*margin-top: 0;*/
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-next,
@@ -662,6 +661,7 @@ pre {
 @media screen and (max-width: 768px) {
   .owl-theme .owl-controls .owl-nav {
     display: none;
+
   }
 }
 
@@ -1286,81 +1286,6 @@ a > img.fh5co-align-center {
   color: #7b7b7b;
 }
 
-.portfolio-grid {
-  width: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 20px;
-}
-.portfolio-grid:after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 0;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.portfolio-grid img {
-  position: relative;
-  max-width: 100%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.portfolio-grid .desc {
-  z-index: 9;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  padding: 30px;
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
-}
-@media screen and (max-width: 768px) {
-  .portfolio-grid .desc {
-    opacity: 1;
-  }
-}
-.portfolio-grid .desc h3 {
-  color: #fff;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-.portfolio-grid .desc span {
-  color: rgba(255, 255, 255, 0.8);
-}
-.portfolio-grid:hover:after {
-  opacity: 1;
-}
-.portfolio-grid:hover .desc {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-.portfolio-grid:hover img {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-}
 
 .nopadding {
   padding: 0 !important;
@@ -1386,4 +1311,5 @@ a > img.fh5co-align-center {
     padding-left: 0 !important;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
