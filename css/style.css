@@ -711,6 +711,15 @@ pre {
   border: 2px solid #2e2e2e;
 }
 
+.owl-carousel .owl-video-tn {
+  position: relative;
+  height: 0;
+ background-size: cover;
+  padding-bottom: 56.25%;
+  overflow: hidden; }
+
+.maxh {max-height: 100vh;}
+
 .quote {
   width: 75%;
   margin: 0 auto;
