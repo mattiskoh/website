@@ -1713,6 +1713,10 @@ pre code {
 .container-fluid:after {
   clear: both;
 }
+.container-data-masonry {
+
+
+}
 
 .row {
   margin-left: -15px;

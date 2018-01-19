@@ -53,7 +53,7 @@ a:hover, a:active, a:focus {
 }
 a:hover {
   color: #7b7b7b;
-  border-bottom: 2px solid #1d2dfd;
+  /*border-bottom: 2px solid #1d2dfd;*/
 }
 
 figure.fh5co-with-caption {
@@ -318,6 +318,7 @@ pre {
 #fh5co-work .fh5co-work-wrap {
   position: relative;
   margin-bottom: 30px;
+  
 }
 #fh5co-work .fh5co-work-item {
   position: relative;
