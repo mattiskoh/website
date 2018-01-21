@@ -318,8 +318,8 @@ pre {
 #fh5co-work .fh5co-work-wrap {
   position: relative;
   margin-bottom: 30px;
-  
 }
+
 #fh5co-work .fh5co-work-item {
   position: relative;
   display: block;
@@ -1296,6 +1296,13 @@ a > img.fh5co-align-center {
   color: #7b7b7b;
 }
 
+.masonry-item {
+  width: 600px;
+}
+
+.masonry-item2 {
+  width: 600px;
+}
 
 .nopadding {
   padding: 0 !important;
