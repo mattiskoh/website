@@ -70,6 +70,9 @@
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0px, 0, 0)
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    transform-style:preserve-3d;
 }
 
 .owl-carousel .owl-controls .owl-dot,
