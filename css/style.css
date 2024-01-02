@@ -1330,3 +1330,7 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+iframe { 
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
